@@ -67,3 +67,4 @@ near call dev<tu numero de contrato> donateToProyecto --accountId <tu_user.testn
 
 ## Authors
 - [Jose Alfredo Roman Cruz](https://github.com/josealfredo79)
+
