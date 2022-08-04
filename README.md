@@ -67,4 +67,4 @@ near call dev<tu numero de contrato> donateToProyecto --accountId <tu_user.testn
 
 ## Authors
 - [Jose Alfredo Roman Cruz](https://github.com/josealfredo79)
-
+- [Mockup](https://www.figma.com/proto/ifJ4898YH5KVwDVdyI006M/ArtesaniasWeb3.0-(Community)?node-id=104%3A21&starting-point-node-id=656%3A108)
