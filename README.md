@@ -23,7 +23,7 @@ Las funcionalidades principales del contrato son las siguientes:
 4. Debe tener una cuenta en la [testnet de NEAR](https://wallet.testnet.near.org/)
 5. Debe tener [NEAR-CLI](https://github.com/near/near-cli) instalado globalmente en su ordenador. Para saber si ya lo tiene instalado, ejecute ```near --version```. En caso de no tenerlo, instálelo ejecutando el comando ```sudo npm install -g near-cli``` 
 
-Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Ahora vamos a ejecutarlo.
+Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Ahora vamos a ejecutarlo en nuestra computadora local
 
 ## Instalación 📖🐱‍💻
 ---
