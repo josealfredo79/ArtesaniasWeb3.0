@@ -3,6 +3,7 @@
 ArtesaniasWeb3.0 es un smart contract que parte de la idea que los artesanos son
 los productores de las artesanias y deben de recibir regalias por la pieza que se vendio
 a un precio mayor. En el estado de Oaxaca en Mexico esto es un problema grave, con el contrato inteligente se debe dar solucion.
+En la región de Tlaxiaco, Oaxaca en México hay diferentes artesanos de las comunidades indigenas que realizan obras de arte con la herencia milenaria de sus ancestros.
 
 Las funcionalidades principales del contrato son las siguientes:
 * Subir un artesania (además, guarda el usuario de la persona que lo sube como "Artesano").
