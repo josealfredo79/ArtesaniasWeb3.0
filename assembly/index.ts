@@ -65,7 +65,6 @@ export function deleteArtesanias(): void {
         allArtesanias.pop();
     }
 }
-
 // Borra una artesania (si existe) basado en la posicion de la artesania PersistentVector
 export function deleteArtesania(artesaniaIndex: i32): bool {
     if(allArtesanias.length < artesaniaIndex) {
@@ -111,6 +110,7 @@ export function getArtesanos(): Artesano[] {
 export function getArtesanosLen(): number {
     return allArtesanos.length;
 }
+
 // Checa si un artesano existe basado en su usuario, para hacerlo mas facil la busqueda
 export function findArtesano(ArtesanoUsuario: String):bool {
     const data = new Array<Artesano>(allArtesanosIndex);
@@ -130,6 +130,7 @@ export function findArtesano(ArtesanoUsuario: String):bool {
         return false;
     }
 }
+
 // Eliminar todos  allArtesanos PersistentVector
 export function deleteArtesanos(): void {
     while(allArtesanos.length > 0) {
@@ -139,6 +140,7 @@ export function deleteArtesanos(): void {
         'Se ha vaciado la lista de contributors'
     )
 }
+
 // Coloca al usuario para hacer una donacion al dueño de la artesania 
 export function makeDonacion(ArtesanoOwnerIndex: i32): bool {
     const data = new  Array<Artesania>(allArtesaniasIndex);
@@ -152,7 +154,7 @@ export function makeDonacion(ArtesanoOwnerIndex: i32): bool {
     }
    }
 
-// Permite al usuario realizar una donacion
+   // Permite al usuario realizar una donacion
 export function donateToProyecto(): void {
     assert(context.attachedDeposit > ONE_NEAR, 'Tu necesitas depositar algun Near.')
     logging.log('Gracias por su contribucion')

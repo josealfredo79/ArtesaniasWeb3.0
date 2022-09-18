@@ -8,7 +8,7 @@ Las funcionalidades principales del contrato son las siguientes:
 * Subir un artesania (además, guarda el usuario de la persona que lo sube como "Artesano").
 * Obtener todos las artesanias
 * Obtener una artesania especifica.
-* Obtener lista de artesanos.
+* Obtener lista de artesanos
 * Eliminar la lista de artesanos.
 * Eliminar una artesania en específico.
 * Vaciar la lista de artesanos.
