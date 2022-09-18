@@ -3,6 +3,7 @@
 ArtesaniasWeb3.0 es un smart contract que parte de la idea que los artesanos son
 los productores de las artesanias y deben de recibir regalias por la pieza que se vendio
 a un precio mayor. En el estado de Oaxaca en Mexico esto es un problema grave, con el contrato inteligente se debe dar solucion.
+En la región de Tlaxiaco, Oaxaca en México hay diferentes artesanos de las comunidades indigenas que realizan obras de arte con la herencia milenaria de sus ancestros.
 
 Las funcionalidades principales del contrato son las siguientes:
 * Subir un artesania (además, guarda el usuario de la persona que lo sube como "Artesano").
@@ -23,11 +24,11 @@ Las funcionalidades principales del contrato son las siguientes:
 4. Debe tener una cuenta en la [testnet de NEAR](https://wallet.testnet.near.org/)
 5. Debe tener [NEAR-CLI](https://github.com/near/near-cli) instalado globalmente en su ordenador. Para saber si ya lo tiene instalado, ejecute ```near --version```. En caso de no tenerlo, instálelo ejecutando el comando ```sudo npm install -g near-cli``` 
 
-Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Ahora vamos a ejecutarlo.
+Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Ahora vamos a ejecutarlo en nuestra computadora local
 
 ## Instalación 📖🐱‍💻
 ---
-1. Clone el repositorio ```git clone git@github.com:sebasvivas1/OpenBooks.git && cd OpenBooks```
+1. Clone el repositorio ```git clone git@github.com:josealfredo79/ArtesaniasWeb3.0.git && cd ArtesaniasWeb3.0```
 2. Vamos a iniciar sesión en nuestra wallet que creamos anteriormente: ```near login```
 3. Dentro del repositorio, instalemos las dependencias del proyecto ejecutando ```npm install```, tranquilo, esto puede tomar unos segundos.
 4. Si quieres desplegar el contrato y probar sus funciones, puedes hacerlo con ```yarn deploy:dev``` esto le devolverá un conjunto de caracteres que empezarán por "dev-" seguido por numeros generados por la red. Guárdelo, lo necesitará si quiere probar los métodos del contrato inteligente.
@@ -67,3 +68,4 @@ near call dev<tu numero de contrato> donateToProyecto --accountId <tu_user.testn
 
 ## Authors
 - [Jose Alfredo Roman Cruz](https://github.com/josealfredo79)
+- [Mockup](https://www.figma.com/proto/ifJ4898YH5KVwDVdyI006M/ArtesaniasWeb3.0-(Community)?node-id=104%3A21&starting-point-node-id=656%3A108)
